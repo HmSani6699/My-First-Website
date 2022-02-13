@@ -3,28 +3,30 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 35px;
 }
 .orange{
     color: orange;
 }
-section{
+.flex{
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 .half-width{
     width:50% ;
-    padding-left: 2%;
+    padding-left: 5%;
+    padding-right: 9%;
+    margin: 30px 30px;
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
 }
 .hier-button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     color: white;
     border-radius: 3px;
-    padding: 10px 40px;
+    padding: 10px 10px;
     font-weight: 600;
 }
 .Top-Baner{
@@ -36,4 +38,27 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.singel-ex{
+    box-shadow: 10px 10px 30px grey;
+}
+#full-stok{
+    border-left: 8px solid;
+   border-image: linear-gradient(180deg,lightsalmon,tomato);
+  border-radius: 5px;
+  border-image-slice:1 ;
+  background-color: white;
+}
+#baby{
+    border-left:8px solid ;
+    border-image: linear-gradient(180deg, blue,blueviolet);
+    border-image-slice: 1;
+}
+.tree-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.margin{
+    margin: 10px 30px;
 }
