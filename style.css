@@ -62,3 +62,7 @@ h1{
 .margin{
     margin: 10px 30px;
 }
+footer p{
+    text-align: center;
+    margin-top: 80px;
+}
